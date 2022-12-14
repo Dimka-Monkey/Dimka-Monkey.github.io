@@ -1,0 +1,333 @@
+body{
+	width: 1488px;
+	margin: 0;
+	font-family: Montserrat;
+}
+
+.container{
+	display: flex;
+	position: relative;
+}
+
+#header,#footer{
+	background: #FCF8F6;
+	height: 747px;
+}
+
+#foto{
+	border-radius: 50%;
+	justify-content: left;
+	margin-left: 165px;
+	margin-top: 180px;
+	width: 350px;
+	height: 350px;
+}
+
+#header:after,
+#header:before {
+  border-bottom: 3vw solid white; 
+  bottom: 0;
+  content: "";
+  position: absolute;
+}
+
+#header:after{
+  border-left: 100vw solid transparent;
+  right: 0;
+}
+
+#sm{
+	margin-left:125px;
+	margin-top: 180px;
+	width: 635px;
+	height: 24px;
+	font-size: 15px;
+	color: #9C8472;
+}
+
+#nm{
+	margin-left: -640px;
+	margin-top: 214px;
+	width: 635px;
+	height: 224px;
+	font-size: 100px;
+	color: #000000;
+}
+
+#b1{
+	margin-left: -640px;
+	margin-top: 478px;
+	width: 225px;
+	height: 60px;
+	background: #075C75;
+	border: 3px solid purple;
+	font-family: Montserrat;
+	font-size: 18px;
+	color: white;
+}
+
+#b1:hover{
+	background: blueviolet;
+}
+
+#osnvinf{
+	height: 1564px;
+	display: flex;
+}
+
+#leftcolumn{
+	width: 50%;
+	height: auto;
+	background: white;
+	flex-direction: column;
+}
+
+#rightcolumn{
+	width: 50%;
+	height: 100%;
+	background: white;
+	flex-direction: column;
+}
+
+#book,#courses,#future{
+	margin-top: 149px;
+	margin-left: 146px;
+	font-size: 20px;
+	color: #9C8472;
+	list-style-type: none;
+}
+
+#li1,#li2,#li3{
+	margin-top: 10px;
+	font-family: 'Times New Roman';
+	color: #D5833B;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#courses{
+	margin-left: 146px;
+	margin-top: 30px;
+	width: 350px;
+	height: 136px;
+}
+
+#future{
+	margin-left: 146px;
+	margin-top: 30px;
+}
+
+#li3{
+	font-weight: 300;
+}
+
+#ob,#ob1,#om,#obf{
+	margin-top: 149px;
+	margin-left: 5px;
+	color: #604532;
+	height: 46px;
+	font-weight: bold;
+}
+
+#inf{
+	margin-top: -15px;
+	margin-left: 5px;
+	width: 635px;
+	color: #604532;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#line,#line2,#line3{
+	margin-top: 80px;
+	margin-left: 5px;
+	width: 71px;
+	height: 10px;
+	background: #075C75;
+}
+
+#ob1{
+	margin-top: 66px;
+	margin-left: 5px;
+}
+
+#chen,#chen1,#chenf{
+	font-size: 20px;
+	color: #9C8472;
+	margin-top: 66px;
+	margin-left: 5px;
+}
+#dost{
+	font-size: 20px;
+	color: #9C8472;
+	margin-top: 66px;
+	margin-left: -35px;
+	list-style-type: none;
+}
+
+#li4{
+	margin-left: 5px;
+	width: 635px;
+	color: #604532;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#diploma{
+	background: white;
+	width: 100%;
+	height: 527px;
+	flex-direction: column;
+
+}
+
+#line2{
+	margin-top: 0px;
+	margin-left: 146px;
+}
+
+#ob2{
+	margin-left: 146px;
+	color: #604532;
+	height: 46px;
+	font-weight: bold;
+}
+
+#chen1{
+	margin-left: 146px;
+	margin-top: -15px;
+}
+
+table{
+	border-collapse: collapse;
+	height: 200px;
+	width: 1139px;
+	margin-left: 146px;
+
+}
+
+#pic{
+	width: 283px;
+	height: 200px;
+}
+#dip{
+	width: 140px;
+	height: 200px;
+}
+
+th{
+	width: 283px;
+	height: 200px;
+}
+
+#forma{
+	background: white;
+	width: 100%;
+	height: 700px;
+	justify-content: center;
+}
+form{
+	background: #FCF8F6;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+	border: 5px solid black;
+	border-radius: 2%;
+}
+
+#line3{
+	margin: 0 auto;
+}
+
+input[type="text"],input[type="email"]{
+	width: 90%;
+	height: 30px;
+	background: #F2F8FD;
+	color: #D5833B;
+}
+
+.text::placeholder{
+	color: #D5833B;
+	font-family: Arial;
+}
+
+#om{
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+textarea{
+	width: 90%;
+	height: 50px;
+	max-width: 90%;
+	max-height: 50px;
+	background: #F2F8FD;
+	color: #58595B;
+}
+
+#b2{
+	width: 90%;
+	height: 50px;
+	background: white;
+	font-family: Montserrat;
+	font-size: 20px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#b2:hover{
+	background:#F2F8FD;
+	width: 92%;
+	border: 2px solid transparent;
+	border: 2px solid black;
+	border-radius: 20px;
+	color: red;
+}
+
+#footer:after,
+#footer:before {
+  border-top: 3vw solid white; 
+  top: 0;
+  content: "";
+  position: absolute;
+}
+
+#footer:after{
+  border-right: 100vw solid transparent;
+  right: 0;
+}
+
+#footer{
+	flex-direction: column;
+	justify-content: center;
+}
+
+#obf{
+	margin: 0 auto;
+	font-size: 50px;
+	
+}
+
+#chenf{
+	margin: 0 auto;
+	margin-top: 5%;
+	color: #075C75;
+}
+
+#soc{
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#social{
+	justify-content: center;
+	margin-top: 5%;
+}
+
+
+
+
