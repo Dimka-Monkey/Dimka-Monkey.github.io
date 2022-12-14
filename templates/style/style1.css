@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Montserrat;
+}
+.header{
+	background: #3c3c6c;
+	margin: 0;
+	display: flex;
+	width: 100%;
+	height: 70px;
+
+}
+
+#logo{
+	width: 40px;
+	height: 40px;
+	color: white;
+	margin: -2px;
+	fill: white;
+	padding-top: 5px;
+}
+#Logo{
+	font-size: 30px;
+	padding-left: 10px;
+	color: #f8a79b;
+}
+a{
+	text-decoration: none;
+	color: #f8a79b;
+}
+#icon{
+	float: right;
+	height: 10%;
+	margin-left: 30px;
+}
+#ic{
+	width: 45px;
+	height: 45px;
+}
+#tic{
+	margin-top: -10px;
+}
+.but{
+	margin-left: 950px;
+}
+.katalog{
+	background: #cc9d9d;
+	height: 700px;
+
+}
+.tovari{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.tovar{
+	width: 422px;
+	height: 402px;
+	background: #5f789e;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+#tov1{
+	width: 420px;
+	height: 225px;
+}
+.shopUnitName{
+	color: white;
+	text-align: center;
+}
+.shopUnitShortDesc{
+	text-align: left;
+	margin-top: 10px;
+}
+.shopUnitPrice{
+	text-align: right;
+	margin-top: 15px;
+}
+.ss{
+	margin-top: 15px;
+	background: #075c9c;
+	text-align: center;
+}
+.ss:hover{
+	background: #3c3c6c;
+
+}
+#kat{
+	color: #04548c;
+	padding-left: 5px;
+}
+.tovar {
+webkit-transition: all 0.5s ease;
+moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.tovar:hover {
+moz-box-shadow: 0 0 10px #000;
+webkit-box-shadow: 0 0 10px #000;
+box-shadow:0 0 10px #000; 
+webkit-transition: all 0.5s ease;
+moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
